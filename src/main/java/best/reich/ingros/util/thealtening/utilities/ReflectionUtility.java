@@ -25,5 +25,4 @@ public class ReflectionUtility {
 
 		field.set(null, newValue);
 	}
-
 }

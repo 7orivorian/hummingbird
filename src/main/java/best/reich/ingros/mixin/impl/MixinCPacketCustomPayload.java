@@ -12,5 +12,4 @@ public abstract class MixinCPacketCustomPayload implements ICPacketCustomPayload
     @Override
     @Accessor
     public abstract void setData(PacketBuffer data);
-
 }

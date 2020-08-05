@@ -36,6 +36,5 @@ public class FovChanger extends ToggleableModule {
     public void onDisable() {
         super.onDisable();
         mc.gameSettings.fovSetting = oldFov;
-
     }
 }

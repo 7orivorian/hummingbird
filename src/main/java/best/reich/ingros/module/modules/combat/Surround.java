@@ -202,7 +202,6 @@ public class Surround extends ToggleableModule {
         return -1;
     }
 
-
     private double getDst(Vec3d vec) {
         return mc.player.getDistance(vec.x, vec.y, vec.z);
     }
@@ -236,7 +235,6 @@ public class Surround extends ToggleableModule {
                                               Vec3d hitVec) {
         getPlayerController().processRightClickBlock(mc.player, mc.world, pos, side, hitVec, EnumHand.MAIN_HAND);
     }
-
 
     public static boolean canBeClicked(BlockPos pos) {
         return mc.world.getBlockState(pos).getBlock().canCollideCheck(mc.world.getBlockState(pos), false);

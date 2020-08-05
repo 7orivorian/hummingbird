@@ -17,14 +17,12 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 
-
 @ModuleManifest(label = "OffhandGap", category = ModuleCategory.COMBAT, color = 0xffAEEA1E)
 public class OffhandGap extends ToggleableModule {
 
     @Clamp(minimum = "1", maximum = "60")
     @Setting("FallDistance")
     public int fallDistance = 30;
-
 
     @Clamp(minimum = "1", maximum = "22")
     @Setting("Health")
@@ -56,9 +54,6 @@ public class OffhandGap extends ToggleableModule {
         }
     }
 
-
-
-
     private boolean shouldTotem() {
         return (mc.player.getHealth() + mc.player.getAbsorptionAmount()) <= health || mc.player.getItemStackFromSlot(EntityEquipmentSlot.CHEST).getItem() == Items.ELYTRA || !(mc.gameSettings.keyBindUseItem.isKeyDown() ||mc.player.fallDistance >= fallDistance || (crystalCheck && !isCrystalsAABBEmpty()));
     }
@@ -70,7 +65,6 @@ public class OffhandGap extends ToggleableModule {
     private boolean isCrystalsAABBEmpty(){
         return isEmpty(mc.player.getPosition().add(1, 0, 0)) && isEmpty(mc.player.getPosition().add(-1, 0, 0)) && isEmpty(mc.player.getPosition().add(0, 0, 1)) && isEmpty(mc.player.getPosition().add(0, 0, -1)) && isEmpty(mc.player.getPosition());
     }
-
 
     int getGappleSlot() {
         int crystalSlot = -1;
@@ -93,5 +87,4 @@ public class OffhandGap extends ToggleableModule {
         }
         return totemSlot;
     }
-
 }

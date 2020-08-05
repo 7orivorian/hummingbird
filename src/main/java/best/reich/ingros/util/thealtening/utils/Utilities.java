@@ -10,7 +10,6 @@ public class Utilities {
     private static final int DEFAULT_BUFFER_SIZE = 8192;
     private static final int MAX_BUFFER_SIZE = Integer.MAX_VALUE - 8;
 
-
     public byte[] readAllBytes(InputStream inputStream) throws IOException {
         byte[] buf = new byte[DEFAULT_BUFFER_SIZE];
         int capacity = buf.length;

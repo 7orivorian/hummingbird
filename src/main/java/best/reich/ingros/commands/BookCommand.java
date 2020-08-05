@@ -53,6 +53,5 @@ public class BookCommand extends Command {
         } else {
             Logger.printMessage("error, error, you suck balls",true);
         }
-
     }
 }

@@ -3,7 +3,7 @@ package best.reich.ingros.events.other;
 import net.b0at.api.event.Event;
 
 public class FullScreenEvent extends Event {
-    private float width,height;
+    private float width, height;
 
     public FullScreenEvent(float width, float height) {
         this.width = width;

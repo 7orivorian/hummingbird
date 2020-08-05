@@ -39,6 +39,5 @@ public class PositionCommand extends Command {
         } else {
             Logger.printMessage("Invalid arguments! usage position v/h <ammount>",true);
         }
-
     }
 }

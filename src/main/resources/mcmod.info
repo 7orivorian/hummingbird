@@ -1,7 +1,7 @@
 [
 {
-  "modid": "ingrosware",
-  "name": "IngrosWare",
+  "modid": "hummingbird",
+  "name": "Hummingbird",
   "description": "a epic modpack.",
   "version": "${version}",
   "mcversion": "${mcversion}",

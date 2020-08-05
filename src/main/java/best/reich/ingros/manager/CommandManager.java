@@ -36,7 +36,6 @@ public class CommandManager extends AbstractCommandManager {
 
     @Override
     public void unload() {
-
     }
 
     private void loadExternalCommands() {

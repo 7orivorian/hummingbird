@@ -11,7 +11,6 @@ import net.b0at.api.event.Subscribe;
 @ModuleManifest(label = "NoWeb", category = ModuleCategory.MOVEMENT)
 public class NoWeb extends ToggleableModule {
 
-
     /**
      * https://github.com/CCBlueX/LiquidBounce/blob/master/1.8.9-Forge/src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/NoWeb.kt
      */

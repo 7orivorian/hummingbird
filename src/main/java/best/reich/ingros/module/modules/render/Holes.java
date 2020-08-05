@@ -135,8 +135,6 @@ public class Holes extends ToggleableModule {
         return true;
     }
 
-
-
     private class Hole extends Vec3i {
         Hole(final int x, final int y, final int z) {
             super(x, y, z);

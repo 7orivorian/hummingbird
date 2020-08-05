@@ -34,7 +34,6 @@ public abstract class MixinRenderLivingBase extends Render {
      * @reason chams
      */
 
-
     @Overwrite
     protected void renderModel(EntityLivingBase entitylivingbaseIn, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch, float scaleFactor) {
         boolean flag = this.isVisible(entitylivingbaseIn);
@@ -97,7 +96,5 @@ public abstract class MixinRenderLivingBase extends Render {
                 GlStateManager.disableBlendProfile(GlStateManager.Profile.TRANSPARENT_MODEL);
             }
         }
-
     }
-
 }

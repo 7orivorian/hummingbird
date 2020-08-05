@@ -18,7 +18,6 @@ import net.minecraft.item.ItemStack;
 import java.util.HashMap;
 import java.util.Map;
 
-
 @ModuleManifest(label = "ItemStacker", category = ModuleCategory.PLAYER, color = 0xA5AEAD)
 public class ItemStacker extends ToggleableModule {
     @Setting("TickDelay")

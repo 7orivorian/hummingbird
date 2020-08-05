@@ -16,7 +16,6 @@ import net.minecraft.item.ItemElytra;
 import net.minecraft.item.ItemStack;
 import net.minecraft.network.play.server.SPacketPlayerPosLook;
 
-
 @ModuleManifest(label = "oHareElytraFly", category = ModuleCategory.MOVEMENT, color = 0xffFF33fa)
 public class oHareElytraFly extends ToggleableModule {
     @Clamp(maximum = "10.0")

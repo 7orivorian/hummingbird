@@ -15,5 +15,4 @@ public abstract class MixinSPacketPosLook implements ISPacketPosLook {
     @Override
     @Accessor
     public abstract void setPitch(float pitch);
-
 }

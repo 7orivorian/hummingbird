@@ -5,7 +5,6 @@ import net.b0at.api.event.types.EventType;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.entity.Entity;
 
-
 public class RenderEntityEvent extends Event {
 
     private final Render renderer;

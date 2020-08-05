@@ -40,12 +40,11 @@ public class IngrosWare extends Client {
         macroManager.load();
         hudEditorGUI.load();
         System.out.println("[hummingbird] Loaded!");
-
     }
 
     @Override
     public void unload() {
-        if(!Files.exists(path)) {
+        if (!Files.exists(path)) {
             try {
                 Files.createDirectory(path);
             } catch (Exception e) {
@@ -57,12 +56,14 @@ public class IngrosWare extends Client {
         profileManager.unload();
         hudEditorGUI.unload();
     }
+
     public void switchToMojang() {
         try {
             altService.switchService(AltService.EnumAltService.MOJANG);
         } catch (NoSuchFieldException | IllegalAccessException ignored) {
         }
     }
+
     public void switchToTheAltening() {
         try {
             altService.switchService(AltService.EnumAltService.THEALTENING);

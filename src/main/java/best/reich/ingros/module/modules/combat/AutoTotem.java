@@ -42,7 +42,6 @@ public class AutoTotem extends ToggleableModule {
             }
         }
 
-
     private int getItemSlot(Item input) {
         for(int i = 0; i < 36; i++) {
             final Item item = Minecraft.getMinecraft().player.inventory.getStackInSlot(i).getItem();
@@ -65,8 +64,6 @@ public class AutoTotem extends ToggleableModule {
                 items += stack.getCount();
             }
         }
-
         return items;
     }
-
 }

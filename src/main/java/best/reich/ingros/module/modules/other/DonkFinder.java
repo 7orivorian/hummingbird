@@ -23,8 +23,6 @@ public class DonkFinder extends ToggleableModule {
      *
      */
 
-
-
     @Setting("FindChestEntities")
     public boolean FindChestableEntities = true;
 
@@ -39,7 +37,4 @@ public class DonkFinder extends ToggleableModule {
             }
         }
     }
-
-
-
 }

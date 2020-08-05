@@ -116,5 +116,4 @@ public abstract class MixinEntityRenderer {
         else
             return worldClient.rayTraceBlocks(start, end);
     }
-
 }

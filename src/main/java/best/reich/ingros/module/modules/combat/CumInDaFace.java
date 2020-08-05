@@ -114,7 +114,6 @@ public class CumInDaFace extends ToggleableModule {
         }
     }
 
-
     public boolean canBeClicked(final BlockPos pos) {
         return mc.world.getBlockState(pos).getBlock().canCollideCheck(mc.world.getBlockState(pos), false);
     }
@@ -156,7 +155,6 @@ public class CumInDaFace extends ToggleableModule {
         double y = ent.getEntityBoundingBox().maxY - 4.0;
         return getRotationFromPosition(x, z, y);
     }
-
 
     public static float[] getRotationFromPosition(double x, double z, double y) {
         double xDiff = x - Minecraft.getMinecraft().player.posX;

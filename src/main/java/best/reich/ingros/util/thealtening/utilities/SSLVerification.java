@@ -16,7 +16,6 @@ public class SSLVerification {
 			whitelistTheAltening();
 			verified = true;
 		}
-
 	}
 
 	private void bypassSSL() {

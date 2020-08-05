@@ -63,5 +63,4 @@ public class PacketMine extends ToggleableModule {
 
         return block.getBlockHardness(blockState, mc.world, pos) != -1;
     }
-
 }

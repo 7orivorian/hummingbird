@@ -23,5 +23,4 @@ public interface ICPacketPlayer {
     void setPitch(float pitch);
 
     float getPitch();
-
 }

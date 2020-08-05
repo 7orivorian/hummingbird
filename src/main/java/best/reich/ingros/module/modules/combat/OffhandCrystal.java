@@ -18,7 +18,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 
-
 @ModuleManifest(label = "OffhandCrystal", category = ModuleCategory.COMBAT, color = 0xffFFEA1E)
 public class OffhandCrystal extends ToggleableModule {
     @Clamp(minimum = "1", maximum = "22")
@@ -101,5 +100,4 @@ public class OffhandCrystal extends ToggleableModule {
         }
         return totemSlot;
     }
-
 }

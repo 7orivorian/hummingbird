@@ -11,7 +11,6 @@ public class MotionUtil {
         return entity.moveForward != 0 || entity.moveStrafing != 0;
     }
 
-
     public static void setSpeed(final EntityLivingBase entity, final double speed) {
         double dir[] = forward(speed);
         entity.motionX = dir[0];
@@ -24,7 +23,6 @@ public class MotionUtil {
             final int amplifier = mc.player.getActivePotionEffect(Potion.getPotionById(1)).getAmplifier();
             baseSpeed *= 1.0 + 0.2 * (amplifier + 1);
         }
-
         return baseSpeed;
     }
 
@@ -55,5 +53,4 @@ public class MotionUtil {
         final double posZ = forward * speed * sin - side * speed * cos;
         return new double[]{posX, posZ};
     }
-
 }

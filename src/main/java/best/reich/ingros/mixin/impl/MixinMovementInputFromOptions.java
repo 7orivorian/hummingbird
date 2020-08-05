@@ -84,5 +84,4 @@ public class MixinMovementInputFromOptions extends MovementInput {
             this.moveForward = (float)((double)this.moveForward * 0.3D);
         }
     }
-
 }

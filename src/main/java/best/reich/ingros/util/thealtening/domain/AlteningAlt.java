@@ -1,6 +1,5 @@
 package best.reich.ingros.util.thealtening.domain;
 
-
 import com.google.gson.annotations.SerializedName;
 
 public class AlteningAlt {

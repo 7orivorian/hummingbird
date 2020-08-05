@@ -15,7 +15,6 @@ public class CapeManager extends MapManager<String, UUID> {
     public void load() {
         IngrosWare.INSTANCE.bus.registerListener(this);
         loadNames();
-
     }
 
     @Override
@@ -39,5 +38,4 @@ public class CapeManager extends MapManager<String, UUID> {
             e.printStackTrace();
         }
     }
-    
 }

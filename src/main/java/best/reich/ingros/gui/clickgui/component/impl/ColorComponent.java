@@ -9,7 +9,6 @@ import org.lwjgl.input.Keyboard;
 
 import java.awt.*;
 
-
 public class ColorComponent extends Component {
     private final ColorSetting colorSetting;
     private boolean pressedhue;

@@ -10,11 +10,9 @@ public class KeybindManager extends AbstractKeybindManager {
 
     @Override
     public void load() {
-
     }
 
     @Override
     public void unload() {
-
     }
 }

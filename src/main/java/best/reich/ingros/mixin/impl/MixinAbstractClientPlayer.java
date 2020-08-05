@@ -23,5 +23,4 @@ public class MixinAbstractClientPlayer extends AbstractClientPlayer {
         CapeLocationEvent event = IngrosWare.INSTANCE.bus.fireEvent(new CapeLocationEvent(this));
 
     }
-
 }

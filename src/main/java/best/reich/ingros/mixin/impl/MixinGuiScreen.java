@@ -33,5 +33,4 @@ public class MixinGuiScreen {
             info.cancel();
         }
     }
-
 }

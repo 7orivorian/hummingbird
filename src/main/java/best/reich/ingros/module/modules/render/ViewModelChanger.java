@@ -27,16 +27,11 @@ public class ViewModelChanger extends ToggleableModule {
         if (mc.player == null || mc.world == null || (mc.currentScreen instanceof GuiContainer)) return;
         if (swing) {
             mc.player.swingProgress = s;
-
-
         }
-
-
     }
 
     @Subscribe
     public void onRender(RenderModelEvent event) {
         GL11.glTranslated(0.5, 0.5, 0.5);
     }
-
 }

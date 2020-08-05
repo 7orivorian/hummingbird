@@ -20,7 +20,6 @@ import org.lwjgl.util.glu.Cylinder;
 import java.util.ArrayList;
 import java.util.List;
 
-
 @ModuleManifest(label = "Trajectories", category = ModuleCategory.RENDER, color = 0xAE85DE)
 public class Trajectories extends ToggleableModule {
 

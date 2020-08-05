@@ -16,7 +16,6 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.math.BlockPos;
 
-
 @ModuleManifest(label = "NoBreakAnimation", category = ModuleCategory.PLAYER, color = 0xFAEEAF,hidden = true)
 public class NoBreakAnimation extends ToggleableModule {
     private boolean isMining = false;

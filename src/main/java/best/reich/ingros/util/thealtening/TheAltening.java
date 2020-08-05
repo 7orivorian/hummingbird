@@ -52,6 +52,4 @@ public final class TheAltening {
     private String attachAccount(final String website, final AlteningAlt account) {
         return website + "?token=" + apiKey + "&acctoken=" + account.getToken();
     }
-
-
 }

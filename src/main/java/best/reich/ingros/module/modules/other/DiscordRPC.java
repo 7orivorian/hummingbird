@@ -76,5 +76,4 @@ public class DiscordRPC extends ToggleableModule {
             }
         }, "RPC-Callback-Handler").start();
     }
-
 }

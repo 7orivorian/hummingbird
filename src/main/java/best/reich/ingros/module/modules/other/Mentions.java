@@ -26,7 +26,6 @@ public class Mentions extends ToggleableModule {
     @Setting("Sound")
     public boolean sound = true;
 
-
     @Subscribe
     public void onPacket(PacketEvent event) {
         if (event.getType() == EventType.POST) {

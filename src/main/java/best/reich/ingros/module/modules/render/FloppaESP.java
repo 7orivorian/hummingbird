@@ -63,7 +63,6 @@ public class FloppaESP extends ToggleableModule {
         }
     }
 
-
     @Subscribe
     public void onRenderGameOverlayEvent(Render2DEvent event) {
         if (mc.world == null || mc.player == null) return;
@@ -106,7 +105,6 @@ public class FloppaESP extends ToggleableModule {
                             (int)x, (int)y, 0, 0, (int)w, (int)h, (int)w, (int)h, w, h);
                     GlStateManager.scale(1.0f, 1.0f, 1.0f);
                     GlStateManager.popMatrix();
-
                 }
             }
         }
@@ -144,13 +142,11 @@ public class FloppaESP extends ToggleableModule {
                 });
     }
 
-
     @FunctionalInterface
     private interface ThrowingFunction<T, R> {
 
         R apply(T obj) throws IOException;
     }
-
 
     private boolean isValid(EntityLivingBase entity) {
         return mc.player != entity && entity.getEntityId() != -1488 && isValidType(entity) && entity.isEntityAlive();
@@ -159,5 +155,4 @@ public class FloppaESP extends ToggleableModule {
     private boolean isValidType(EntityLivingBase entity) {
         return (entity instanceof EntityPlayer) || (((entity instanceof EntityMob || entity instanceof EntitySlime)) || ((entity instanceof EntityVillager || entity instanceof EntityGolem)) || (entity instanceof IAnimals));
     }
-
 }

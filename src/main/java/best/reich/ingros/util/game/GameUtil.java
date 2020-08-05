@@ -31,7 +31,6 @@ public class GameUtil implements Minecraftable {
                 return false;
             }
         }
-
         return true;
     }
 

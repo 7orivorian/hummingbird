@@ -1,6 +1,5 @@
 package best.reich.ingros.module.modules.render;
 
-
 import best.reich.ingros.events.entity.UpdateEvent;
 import best.reich.ingros.events.render.*;
 import me.xenforu.kelo.module.ModuleCategory;
@@ -74,7 +73,6 @@ public class NoRender extends ToggleableModule {
             event.setCancelled(true);
         }
     }
-
 
     @Subscribe
     public void onLight(UpdateLightEvent event) {

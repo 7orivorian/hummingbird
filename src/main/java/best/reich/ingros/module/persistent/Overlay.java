@@ -355,7 +355,6 @@ public class Overlay extends PersistentModule {
         }
     }
 
-
     public String getRenderLabel(ToggleableModule module) {
         final StringBuilder sb;
         sb = new StringBuilder(module.getLabel());
@@ -367,7 +366,6 @@ public class Overlay extends PersistentModule {
     public static int getItems(Item i) {
         return mc.player.inventory.mainInventory.stream().filter(itemStack -> itemStack.getItem() == i).mapToInt(ItemStack::getCount).sum() + mc.player.inventory.offHandInventory.stream().filter(itemStack -> itemStack.getItem() == i).mapToInt(ItemStack::getCount).sum();
     }
-
 
     private int getArrayListColor(ToggleableModule toggleableModule, int offset) {
         switch (colormode.toUpperCase()) {
@@ -408,7 +406,6 @@ public class Overlay extends PersistentModule {
             return "Good night :^) ";
         }
     }
-
 
     private String totemCount() {
         return String.valueOf(getItems(Items.TOTEM_OF_UNDYING));

@@ -32,7 +32,6 @@ import net.minecraft.util.math.Vec3d;
 import java.util.*;
 import java.util.stream.Collectors;
 
-
 @ModuleManifest(label = "AutoTrap", category = ModuleCategory.COMBAT, color = 0x4BF7FF)
 public class AutoTrap extends ToggleableModule {
     @Setting("EndChest")
@@ -47,12 +46,10 @@ public class AutoTrap extends ToggleableModule {
     @Setting("BlocksPerTick")
     public int blockPerTick = 4;
 
-
     /**
      * @author offsets made by ionar2 https://github.com/ionar2/salhack/blob/master/src/main/java/me/ionar/salhack/module/combat/AutoTrap.java
      * everything else made by ohare
      */
-
 
     private final Vec3d[] offsetsDefault = new Vec3d[]
             {
@@ -71,6 +68,7 @@ public class AutoTrap extends ToggleableModule {
                     new Vec3d(0.0, 3.0, -1.0), // +3 left
                     new Vec3d(0.0, 3.0, 0.0) // +3 middle
             };
+
     private EntityPlayer closestTarget;
     private String lastTickTargetName;
     private int playerHotbarSlot = -1;

@@ -1,6 +1,5 @@
 package best.reich.ingros.util.thealtening.utils;
 
-
 import best.reich.ingros.util.thealtening.domain.AlteningAlt;
 
 public class UserSkin {
@@ -10,7 +9,4 @@ public class UserSkin {
     public UserSkin(AlteningAlt account) {
         this.account = account;
     }
-
-
-
 }

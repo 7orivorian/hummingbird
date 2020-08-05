@@ -6,7 +6,6 @@ import me.xenforu.kelo.module.annotation.ModuleManifest;
 import me.xenforu.kelo.module.type.ToggleableModule;
 import net.b0at.api.event.Subscribe;
 
-
 @ModuleManifest(label = "NoPush", category = ModuleCategory.MOVEMENT, color = 0xfFDEDB,hidden = true)
 public class NoPush extends ToggleableModule {
 

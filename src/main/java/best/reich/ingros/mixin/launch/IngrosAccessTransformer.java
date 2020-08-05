@@ -13,5 +13,4 @@ public class IngrosAccessTransformer extends AccessTransformer {
     public IngrosAccessTransformer() throws IOException {
         super("ingros_at.cfg");
     }
-
 }

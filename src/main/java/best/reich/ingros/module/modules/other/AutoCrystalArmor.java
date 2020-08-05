@@ -85,7 +85,6 @@ public class AutoCrystalArmor extends ToggleableModule {
                 }
             }
         }
-
     }
 
     public static int getSlotID(Item item) {

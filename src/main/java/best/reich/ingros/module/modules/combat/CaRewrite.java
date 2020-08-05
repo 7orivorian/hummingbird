@@ -1,6 +1,5 @@
 package best.reich.ingros.module.modules.combat;
 
-
 import best.reich.ingros.IngrosWare;
 import best.reich.ingros.events.entity.UpdateEvent;
 import best.reich.ingros.events.network.PacketEvent;
@@ -205,7 +204,6 @@ public class CaRewrite extends ToggleableModule {
                 }
                return;
             }
-
 
             final RayTraceResult result = mc.world.rayTraceBlocks(new Vec3d(mc.player.posX, mc.player.posY + mc.player.getEyeHeight(), mc.player.posZ), new Vec3d(finalPos.getX() + 0.5, finalPos.getY() - 0.5, finalPos.getZ() + 0.5));
             final EnumFacing f = result == null || result.sideHit == null ? EnumFacing.UP : result.sideHit;
@@ -413,4 +411,3 @@ public class CaRewrite extends ToggleableModule {
         }
     }
 }
-

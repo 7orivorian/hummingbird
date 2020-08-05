@@ -1,6 +1,5 @@
 package best.reich.ingros.module.modules.player;
 
-
 import best.reich.ingros.events.other.TickEvent;
 import me.xenforu.kelo.module.ModuleCategory;
 import me.xenforu.kelo.module.annotation.ModuleManifest;
@@ -20,7 +19,6 @@ public class AntiVoid extends ToggleableModule {
     @Clamp(maximum = "0.2")
     @Setting("Height")
     public double height = 0.9D;
-
 
     @Subscribe
     public void onTick(TickEvent event) {

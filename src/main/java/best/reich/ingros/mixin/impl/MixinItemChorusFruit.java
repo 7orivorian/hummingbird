@@ -20,5 +20,4 @@ public abstract class MixinItemChorusFruit {
         TeleportEvent event = new TeleportEvent();
         IngrosWare.INSTANCE.bus.fireEvent(event);
     }
-
 }

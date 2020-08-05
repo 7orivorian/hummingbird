@@ -155,7 +155,6 @@ public class CumInDaHole extends ToggleableModule {
         return false;
     }
 
-
     public static boolean checkForNeighbours(final BlockPos blockPos) {
         if (!hasNeighbour(blockPos)) {
             for (final EnumFacing side : EnumFacing.values()) {
@@ -178,7 +177,6 @@ public class CumInDaHole extends ToggleableModule {
         }
         return false;
     }
-
 
     private boolean isBlockValid(final IBlockState blockState, final BlockPos blockPos) {
         if (this.holes.contains(blockPos)) {

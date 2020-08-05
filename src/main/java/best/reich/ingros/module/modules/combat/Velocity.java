@@ -78,5 +78,4 @@ public class Velocity extends ToggleableModule {
         super.onEnable();
         once = false;
     }
-
 }

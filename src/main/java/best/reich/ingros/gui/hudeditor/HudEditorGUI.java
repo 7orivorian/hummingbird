@@ -110,5 +110,4 @@ public class HudEditorGUI extends GuiScreen {
     public boolean doesGuiPauseGame() {
         return false;
     }
-
 }

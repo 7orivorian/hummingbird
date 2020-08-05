@@ -47,7 +47,6 @@ public class Commands extends PersistentModule {
         }
     }
 
-
     private void checkCommands(String message, PacketEvent event) {
         if (message.startsWith("-")) {
             String[] args = message.split(" ");
@@ -72,5 +71,4 @@ public class Commands extends PersistentModule {
             event.setCancelled(true);
         }
     }
-
 }

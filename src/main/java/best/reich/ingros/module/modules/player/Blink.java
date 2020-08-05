@@ -15,7 +15,6 @@ import org.lwjgl.opengl.GL11;
 import javax.vecmath.Vector3d;
 import java.util.ArrayList;
 
-
 @ModuleManifest(label = "Blink", category = ModuleCategory.PLAYER, color = 0xffffEA10)
 public class Blink extends ToggleableModule {
     private ArrayList<Packet> packets = new ArrayList<>();

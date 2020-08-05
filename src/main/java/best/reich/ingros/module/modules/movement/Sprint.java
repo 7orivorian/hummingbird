@@ -39,5 +39,4 @@ public class Sprint extends ToggleableModule {
                 (player.getFoodStats().getFoodLevel() >= 6f || player.capabilities.allowFlying) &&
                 !player.isPotionActive(MobEffects.BLINDNESS);
     }
-
 }

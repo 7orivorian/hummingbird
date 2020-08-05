@@ -81,5 +81,4 @@ public abstract class MixinEntity implements IEntity {
     public boolean getPositionOnGround() {
         return onGround;
     }
-
 }

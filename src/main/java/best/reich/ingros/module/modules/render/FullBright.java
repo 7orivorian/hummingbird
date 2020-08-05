@@ -30,5 +30,4 @@ public class FullBright extends ToggleableModule {
         if (mc.world == null || mc.player == null) return;
         mc.gameSettings.gammaSetting = oldGamma;
     }
-
 }

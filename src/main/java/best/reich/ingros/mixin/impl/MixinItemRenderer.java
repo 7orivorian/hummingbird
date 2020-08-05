@@ -55,5 +55,4 @@ public abstract class MixinItemRenderer {
         IngrosWare.INSTANCE.bus.fireEvent(event);
         if (event.isCancelled()) ci.cancel();
     }
-
 }

@@ -1,6 +1,5 @@
 package best.reich.ingros.util.game;
 
-
 import net.minecraft.client.Minecraft;
 import net.minecraft.inventory.ClickType;
 import net.minecraft.inventory.Container;
@@ -56,5 +55,4 @@ public class InventoryUtil {
         mc.playerController.windowClick(mc.player.inventoryContainer.windowId, slot, 0, ClickType.PICKUP, mc.player);
         mc.playerController.updateController();
     }
-
 }

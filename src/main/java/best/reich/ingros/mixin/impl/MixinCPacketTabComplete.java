@@ -11,5 +11,4 @@ public abstract class MixinCPacketTabComplete implements ICPacketTabComplete {
     @Override
     @Accessor
     public abstract void setMessage(String message);
-
 }

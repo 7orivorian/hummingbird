@@ -12,7 +12,6 @@ import net.minecraft.init.MobEffects;
 
 import java.util.Objects;
 
-
 @ModuleManifest(label = "Strafe", category = ModuleCategory.MOVEMENT, color = 0xff0AEf00)
 public class Strafe extends ToggleableModule {
     @Setting("Ground")

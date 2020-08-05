@@ -31,5 +31,4 @@ public class AntiEffects extends ToggleableModule {
             }
         }
     }
-
 }

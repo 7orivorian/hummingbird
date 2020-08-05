@@ -57,5 +57,4 @@ public class IngrosLoader implements IFMLLoadingPlugin {
     public String getAccessTransformerClass() {
         return IngrosAccessTransformer.class.getName();
     }
-
 }

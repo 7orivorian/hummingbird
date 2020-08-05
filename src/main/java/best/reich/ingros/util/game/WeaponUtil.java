@@ -52,5 +52,4 @@ public class WeaponUtil implements Minecraftable {
         }
         return (reduction * 4) / 100.0;
     }
-
 }

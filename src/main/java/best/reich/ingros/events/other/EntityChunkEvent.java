@@ -24,5 +24,4 @@ public class EntityChunkEvent extends Event {
     public Entity getEntity() {
         return entity;
     }
-
 }

@@ -32,7 +32,6 @@ public class BlockUtil {
         return entities.isEmpty();
     }
 
-
     public static IBlockState getState(BlockPos pos)
     {
         return mc.world.getBlockState(pos);

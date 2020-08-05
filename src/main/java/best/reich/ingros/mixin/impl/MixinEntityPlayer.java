@@ -23,5 +23,4 @@ public abstract class MixinEntityPlayer extends MixinEntity {
     private double decelerate(final double original) {
         return 1.0;
     }
-
 }

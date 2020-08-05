@@ -381,5 +381,4 @@ public class RenderUtil implements Minecraftable {
         GL11.glPopMatrix();
         GL11.glColor4f(1f, 1f, 1f, 1f);
     }
-
 }

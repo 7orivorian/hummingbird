@@ -4,7 +4,6 @@ package best.reich.ingros.util.game;
  * @author fluffycq
  */
 
-
 // hollow i am not servant i tell you how to fix ca -_-
 // fluffy why are you so cute
 

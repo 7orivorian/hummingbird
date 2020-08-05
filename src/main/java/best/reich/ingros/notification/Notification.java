@@ -1,6 +1,5 @@
 package best.reich.ingros.notification;
 
-
 import best.reich.ingros.IngrosWare;
 import best.reich.ingros.module.persistent.Overlay;
 import best.reich.ingros.util.render.RenderUtil;
@@ -82,5 +81,4 @@ public class Notification {
     public boolean delete() {
         return x >= new ScaledResolution(mc).getScaledWidth() - 2 && done;
     }
-
 }

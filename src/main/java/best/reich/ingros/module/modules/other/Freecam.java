@@ -123,5 +123,4 @@ public class Freecam extends ToggleableModule {
             event.setZ(forward * speed * Math.cos(Math.toRadians(yaw)) - strafe * speed * -Math.sin(Math.toRadians(yaw)));
         }
     }
-
 }

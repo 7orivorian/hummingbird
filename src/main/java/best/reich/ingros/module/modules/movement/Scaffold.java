@@ -606,5 +606,4 @@ public class Scaffold extends ToggleableModule {
             this.face = face;
         }
     }
-
 }

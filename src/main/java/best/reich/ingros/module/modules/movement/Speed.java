@@ -21,7 +21,6 @@ import java.util.Objects;
 
 import static best.reich.ingros.util.game.MotionUtil.getBaseMoveSpeed;
 
-
 @ModuleManifest(label = "Speed", category = ModuleCategory.MOVEMENT, color = 0x2FBDCF)
 public class Speed extends ToggleableModule {
     @Setting("mode")
@@ -54,7 +53,6 @@ public class Speed extends ToggleableModule {
         }
     }
 
-
     @Subscribe
     public void onUpdate(UpdateEvent event) {
         if (mc.world == null || mc.player == null) return;
@@ -76,7 +74,6 @@ public class Speed extends ToggleableModule {
                 break;
         }
     }
-
 
     @Subscribe
     public void onMotion(MotionEvent event) {
@@ -151,5 +148,4 @@ public class Speed extends ToggleableModule {
         final double posZ = forward * speed * sin - side * speed * cos;
         return new double[]{posX, posZ};
     }
-
 }

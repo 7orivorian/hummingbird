@@ -9,7 +9,6 @@ import me.xenforu.kelo.setting.annotation.Setting;
 import net.minecraft.entity.player.EntityPlayer;
 import net.b0at.api.event.Subscribe;
 
-
 @ModuleManifest(label = "Notifications", category = ModuleCategory.OTHER, color = 0xff007777,hidden = true)
 public class Notifications extends ToggleableModule {
     @Setting("Notification")
@@ -30,5 +29,4 @@ public class Notifications extends ToggleableModule {
                 break;
         }
     }
-
 }
